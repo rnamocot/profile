@@ -56,8 +56,6 @@
     color: #ff0081;
     font-weight: 900;
     font-size: 40px;
-    animation-duration: 3s;
-    animation-name: slidein;
 }
 @keyframes shake{
     0% { transform: rotate(0); }
@@ -512,7 +510,12 @@ margin-top: 30px;
     font-size: 35px;
     font-weight: 900;
 }
-
+span.myname {
+    color: #ffffff;
+}
+span.myjob {
+    color: #FF0081;
+}
 
 /* Mobile responsive */
 
@@ -593,8 +596,11 @@ img.bio-img {
 .skills-sec h2 {
     font-size: 15px;
 }
+.skills-listing {
+    text-align: center;
+}
 .skills-listing svg {
-    font-size: 68px;
+    font-size: 50px;
 }
 .heading-icon svg {
     font-size: 20px;
@@ -646,8 +652,24 @@ img.bio-img {
 .project-text p {
     font-size: 13px;
 }
-
+.view-click {
+    padding: 2px 10px;
+}
+.project-text {
+    padding: 9px 4px;
+}
+.project-text p {
+    font-size: 10px;
+}
 .contact-sec {
     padding: 50px 10px;
 }
+    .icon-contact a:hover{
+        padding: 31px 24px !important;
+        font-size: 45px !important;
+        transition-timing-function: ease-out !important;
+            transition: 0.5s !important;
+            transform: scale(1.6) !important;
+            cursor: pointer;
+        }
 }

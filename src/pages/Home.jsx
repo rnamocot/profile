@@ -2,7 +2,7 @@ import React from 'react';
 import { FaUserGraduate, FaBookOpen, FaCogs, FaCode } from "react-icons/fa";
 import { GiArchiveResearch } from "react-icons/gi";
 import { SiCodersrank, SiVisualstudiocode, SiJquery, SiJavascript, SiPhp, SiLaravel, SiMysql, SiFirebase, SiCsharp, SiYoast, SiGoogletagmanager, SiAdobephotoshop, SiJpeg } from "react-icons/si";
-import { FaPhoneSquareAlt,FaLinkedin,FaEnvelope,FaArrowAltCircleDown,FaHtml5, FaCss3Alt, FaSass, FaReact, FaBootstrap, FaWordpress, FaNodeJs, FaSearch, FaGithubSquare } from "react-icons/fa";
+import { FaPhoneSquareAlt, FaLinkedin, FaEnvelope, FaArrowAltCircleDown, FaHtml5, FaCss3Alt, FaSass, FaReact, FaBootstrap, FaWordpress, FaNodeJs, FaSearch, FaGithubSquare } from "react-icons/fa";
 import { TbApi, TbError404Off, TbView360 } from "react-icons/tb";
 import { DiGoogleAnalytics } from "react-icons/di";
 
@@ -16,15 +16,15 @@ const Home = () => {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-md-6'>
-                            <div className='banner-text'>
+                            <div className="banner-text">
                                 <h3>Hello,</h3>
-                                <h1>I'm Renie Namocot</h1>
-                                <h4>Website Developer</h4>
-                                <div className='banner-text-sub'>
+                                <h1>I'm <span className="myname">Renie Namocot</span></h1>
+                                <h4>Web <span className="myjob">Developer</span></h4>
+                                <div className="banner-text-sub">
                                     <h2>I build things for the web.</h2>
                                     <p>I'm a website developer based in Philippines, specializing in building exceptional websites, applications and everything in between.</p>
                                 </div>
-                                <div className='btn-gt'>
+                                    <div className="btn-gt">
                                     <a href="mailto:namocotrenie@gmail.com">Contact Me</a>
                                 </div>
                             </div>
@@ -49,9 +49,11 @@ const Home = () => {
                                 </div>
                             </div>
                             <div className='bio-contents'>
-                                <p>Hi, I'm Renie Namocot, currently working as Web Developer in an Australian company. I graduated a Bachelor of Science in Information Techonology (BSIT) in the Phillipines.</p>
-                                <p>Previously, I worked in some local companies here in the Philippines as a Web Developer, where I worked on developing company websites and e-commerce sites, applications and and online softwares for companies.</p>
-                                <p>Aside from work, I harness my skills at home by creating some website designs and applications using newly release updates ofn programming languages and frameworks.</p>
+                                <p>Hi, I am web developer with a background of computer hardware and servicing. My 5 years experience of website development has given me a strong foundation on developing professional website and building complex solutions.</p>
+
+                                <p>I worked in some local companies here in the Philippines. I have experience as well working on foreign client as a Web Developer where I worked on developing company websites and e-commerce sites, applications and and online softwares for companies.</p>
+
+                                <p>Aside from work, I also upgrading my skills at home by creating some website designs and applications on new release updates of programming languages and frameworks.</p>
                             </div>
                             <div className='row educ-row'>
                                 <div className='col-md-7'>
@@ -186,7 +188,7 @@ const Home = () => {
                                     <h4>EMAPTA</h4>
                                 </div>
                                 <div className='exp-work-text'>
-                                    <p>Built and maintain websites from clients , this includes seo optimsation and support google ads marketing for data and analytics. using (HTML, CSS, Bootstrap,React Js, JS and Git). I handled various of CMS as well like Shopify, Wordpress , Magento, Bigcommerce, Squarespace that depends on clients requirements</p>
+                                    <p>Built and maintain websites from clients , this includes SEO optimisation and Google Ads marketing support for data and analytics. Stack tools being useed are HTML, CSS, Bootstrap,Node Js, React Js and Git. I handled some CMS as well like Shopify, Wordpress , Magento, Bigcommerce, Squarespace and others that depends on clients requirements.</p>
                                 </div>
                                 <div className='exp-work-year'>
                                     <h6>2020 - Current</h6>
@@ -201,7 +203,7 @@ const Home = () => {
                                     <h4>Gazillionaires Trading Inc</h4>
                                 </div>
                                 <div className='exp-work-text'>
-                                    <p>I am a sole website developer, I built company static and e-commerce websites - using (HTML, CSS , JS ,Git and API)</p>
+                                    <p>I am here as a sole web developer. I built company static and e-commerce websites. Stack tools being used here are (PHP, HTML, CSS , JS ,Git and API)</p>
                                 </div>
                                 <div className='exp-work-year'>
                                     <h6>2019 - 2020</h6>
@@ -216,7 +218,7 @@ const Home = () => {
                                     <h4>LTY Group Philippines Inc.</h4>
                                 </div>
                                 <div className='exp-work-text'>
-                                    <p>Built and maintain company websites - using (PHP, JS, JS, CSS ,Git, HTML and Wordpress)</p>
+                                    <p>Built and maintain company websites - Stack tools being used are (PHP, JS, JS, CSS , HTML and Wordpress)</p>
                                 </div>
                                 <div className='exp-work-year'>
                                     <h6>Aug 2019 - Oct 2019</h6>
@@ -231,7 +233,7 @@ const Home = () => {
                                     <h4>Business Swicth Manila</h4>
                                 </div>
                                 <div className='exp-work-text'>
-                                    <p>Built company websites for Australian business owners - using (PHP, JS, Angular JS, CSS , HTML, Git and Wordpress) in Agile Development flow</p>
+                                    <p>Built company websites for Australian business owners . Stack tools being used are (PHP, JS, Angular JS, CSS , HTML, Git and Wordpress) in Agile Development flow</p>
                                 </div>
                                 <div className='exp-work-year'>
                                     <h6>2017 - 2019</h6>
@@ -253,7 +255,7 @@ const Home = () => {
                             <p>Here are some of my previous projects that are allowed to display in my portfolio</p>
                         </div>
                         <div className='arrow'>
-                            <FaArrowAltCircleDown className='arrow-down-p'/>
+                            <FaArrowAltCircleDown className='arrow-down-p' />
                         </div>
                         <div className='col-md-4'>
                             <div className='project-col'>
@@ -366,12 +368,12 @@ const Home = () => {
                     <div className='row' id="contact">
                         <h2>Get in touch</h2>
                         <div className='icon-contact'>
-                            <a href="mailto:namocotrenie@gmail.com"><FaEnvelope/></a>
-                            <a href="https://www.linkedin.com/mwlite/in/renie-namocot-43700818b"><FaLinkedin/></a>
-                            <a href="tel:0961 386 8728"><FaPhoneSquareAlt/></a>
+                            <a href="mailto:namocotrenie@gmail.com"><FaEnvelope /></a>
+                            <a href="https://www.linkedin.com/mwlite/in/renie-namocot-43700818b"><FaLinkedin /></a>
+                            <a href="tel:0961 386 8728"><FaPhoneSquareAlt /></a>
                         </div>
                     </div>
-                </div>                           
+                </div>
             </div>
         </>
     );
